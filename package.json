@@ -1,5 +1,5 @@
 {
-  "name": "terraform-module-secret",
+  "name": "terraform-module-gcp-secret",
   "version": "1.0.0",
   "description": "terraform module to create a cloudrun service",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brandlive1941/terraform-module-secret.git"
+    "url": "git+https://github.com/brandlive1941/terraform-module-gcp-secret.git"
   },
   "keywords": [
     "gcp",
@@ -20,9 +20,9 @@
   "author": "drew.mercer@brandlive.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brandlive1941/terraform-module-secret/issues"
+    "url": "https://github.com/brandlive1941/terraform-module-gcp-secret/issues"
   },
-  "homepage": "https://github.com/brandlive1941/terraform-module-secret#readme",
+  "homepage": "https://github.com/brandlive1941/terraform-module-gcp-secret#readme",
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/github": "^8.0.4",
