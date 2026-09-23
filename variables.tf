@@ -22,3 +22,9 @@ variable "value" {
   description = "secret value"
   type        = string
 }
+
+variable "replication_locations" {
+  description = "Regions to replicate the secret to. Empty (the default) uses automatic replication, which stores the secret globally."
+  type        = list(string)
+  default     = []
+}
